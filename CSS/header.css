@@ -1,6 +1,14 @@
 .header--title {
-    width: 100%;
-    height: 5rem;
-    padding: 
-    background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  padding: 1.5rem;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  font-size: 1.8rem;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  position: sticky;
+  z-index: 50;
 }
