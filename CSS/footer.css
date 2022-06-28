@@ -1,0 +1,25 @@
+.footer--nav--bar {
+  background-color: var(--primary-color);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 25px;
+  height: 4rem;
+  width: 100%;
+  padding: 1.5rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer--nav--list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  list-style: none;
+  background: transparent;
+}
+
+.footer--nav--items {
+  width: 10px;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+}
