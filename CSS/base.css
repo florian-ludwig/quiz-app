@@ -4,3 +4,10 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+:root {
+  --background-color: #2d3242;
+  --primary-color: #2b4057;
+  --font-color: #ccdae7;
+  --button-color: #e78230;
+}
