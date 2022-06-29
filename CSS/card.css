@@ -1,0 +1,11 @@
+.quiz--card {
+  background-color: var(--generic-color);
+  border: 1px white solid;
+  border-radius: 12px;
+  color: var(--font-color);
+  z-index: 15;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
