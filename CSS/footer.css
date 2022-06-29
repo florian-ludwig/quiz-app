@@ -24,12 +24,13 @@
   height: 40px;
   width: 40px;
 }
-
-#active {
-  color: var(--font-color);
-}
-
 i {
   color: var(--button-color);
   background-color: var(--primary-color);
+}
+a {
+  background: transparent;
+}
+#active {
+  color: var(--font-color);
 }

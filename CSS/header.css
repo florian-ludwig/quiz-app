@@ -5,11 +5,13 @@
   height: 3rem;
   width: 100%;
   padding: 1.5rem;
+  top: 0;
   background-color: var(--primary-color);
   color: var(--font-color);
   font-size: 1.8rem;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 25px;
+  box-shadow: 1px 1px 20px var(--button-color);
   position: fixed;
   z-index: 50;
 }
