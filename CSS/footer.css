@@ -1,5 +1,5 @@
 .footer--nav--bar {
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
   border-top-left-radius: 20px;
   border-top-right-radius: 25px;
   width: 100%;
@@ -7,6 +7,7 @@
   position: fixed;
   bottom: 0;
   z-index: 50;
+  box-shadow: 1px 1px 10px var(--button-color);
 }
 
 .footer--nav--list {
@@ -26,7 +27,7 @@
 }
 i {
   color: var(--button-color);
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
 }
 a {
   background: transparent;
