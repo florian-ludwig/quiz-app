@@ -6,6 +6,8 @@
   background-color: var(--background-color);
 }
 
+/* lightcyan / lightseagreen / lightsalmon für light-mode  */
+
 :root {
   --background-color: #2d3242;
   --primary-color: #2b4057;

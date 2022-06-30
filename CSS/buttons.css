@@ -1,0 +1,56 @@
+.quiz--show--answer--btn {
+  position: absolute;
+  top: 8rem;
+  left: 10rem;
+  right: 10rem;
+  width: 11rem;
+  height: 2rem;
+  background-color: var(--button-color);
+  color: var(--font-color);
+  border-radius: 10px;
+  box-shadow: 0 0 2px 0 var(--font-color);
+}
+.quiz--btn--1 {
+  position: absolute;
+  top: 12rem;
+  left: 2rem;
+  width: 6rem;
+  height: 1.5rem;
+  background-color: var(--button-color);
+  color: var(--font-color);
+  border-radius: 10px;
+  box-shadow: 0 0 2px 0 var(--font-color);
+}
+.quiz--btn--2 {
+  position: absolute;
+  top: 12rem;
+  left: 9rem;
+  width: 6rem;
+  height: 1.5rem;
+  background-color: var(--button-color);
+  color: var(--font-color);
+  border-radius: 10px;
+  box-shadow: 0 0 2px 0 var(--font-color);
+}
+.quiz--btn--3 {
+  position: absolute;
+  top: 12rem;
+  left: 16rem;
+  width: 6rem;
+  height: 1.5rem;
+  background-color: var(--button-color);
+  color: var(--font-color);
+  border-radius: 10px;
+  box-shadow: 0 0 2px 0 var(--font-color);
+}
+.quiz--btn--4 {
+  position: absolute;
+  top: 12rem;
+  left: 23rem;
+  width: 6rem;
+  height: 1.5rem;
+  background-color: var(--button-color);
+  color: var(--font-color);
+  border-radius: 10px;
+  box-shadow: 0 0 2px 0 var(--font-color);
+}

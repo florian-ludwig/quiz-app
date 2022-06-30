@@ -7,7 +7,7 @@
   position: fixed;
   bottom: 0;
   z-index: 50;
-  box-shadow: 1px 1px 10px var(--button-color);
+  box-shadow: 0 0 5px 0 var(--button-color);
 }
 
 .footer--nav--list {
