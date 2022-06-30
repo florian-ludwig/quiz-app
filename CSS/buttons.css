@@ -6,9 +6,8 @@
   width: 11rem;
   height: 2rem;
   background-color: var(--button-color);
-  color: var(--font-color);
+  color: var(--background-color);
   border-radius: 10px;
-  box-shadow: 0 0 2px 0 var(--font-color);
 }
 .quiz--btn--1 {
   position: absolute;
@@ -17,9 +16,8 @@
   width: 6rem;
   height: 1.5rem;
   background-color: var(--button-color);
-  color: var(--font-color);
+  color: var(--background-color);
   border-radius: 10px;
-  box-shadow: 0 0 2px 0 var(--font-color);
 }
 .quiz--btn--2 {
   position: absolute;
@@ -28,9 +26,8 @@
   width: 6rem;
   height: 1.5rem;
   background-color: var(--button-color);
-  color: var(--font-color);
+  color: var(--background-color);
   border-radius: 10px;
-  box-shadow: 0 0 2px 0 var(--font-color);
 }
 .quiz--btn--3 {
   position: absolute;
@@ -39,9 +36,8 @@
   width: 6rem;
   height: 1.5rem;
   background-color: var(--button-color);
-  color: var(--font-color);
+  color: var(--background-color);
   border-radius: 10px;
-  box-shadow: 0 0 2px 0 var(--font-color);
 }
 .quiz--btn--4 {
   position: absolute;
@@ -50,7 +46,6 @@
   width: 6rem;
   height: 1.5rem;
   background-color: var(--button-color);
-  color: var(--font-color);
+  color: var(--background-color);
   border-radius: 10px;
-  box-shadow: 0 0 2px 0 var(--font-color);
 }

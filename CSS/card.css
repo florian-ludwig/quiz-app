@@ -30,4 +30,16 @@
   top: 4rem;
   left: 2rem;
   right: 2rem;
+  background: transparent;
+}
+
+.quiz--card i {
+  position: absolute;
+  top: -2rem;
+  right: 1rem;
+  background: transparent;
+  color: var(--font-color);
+}
+.quiz--card i:hover {
+  color: var(--button-color);
 }
