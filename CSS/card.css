@@ -25,21 +25,29 @@
   text-decoration: underline;
 }
 
-.quiz--card p {
+.question-text {
   position: absolute;
   top: 4rem;
   left: 2rem;
   right: 2rem;
   background: transparent;
 }
-
-.quiz--card i {
+.answer-container {
+  position: absolute;
+  top: 11rem;
+  left: 3rem;
+}
+.answer-text {
+  font-size: 18px;
+  display: none;
+}
+.quiz-card-bookmark {
   position: absolute;
   top: -2rem;
   right: 1rem;
   background: transparent;
   color: var(--font-color);
 }
-.quiz--card i:hover {
+.quiz-card-bookmark--checked {
   color: var(--button-color);
 }

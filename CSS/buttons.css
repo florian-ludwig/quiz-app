@@ -3,10 +3,6 @@
   top: 0;
   right: 1rem;
 }
-.quiz--show--answer--btn__clicked {
-  background-color: aliceblue;
-}
-
 .quiz--show--answer--btn {
   position: absolute;
   top: 8rem;
@@ -20,7 +16,7 @@
 }
 .quiz--btn--1 {
   position: absolute;
-  top: 12rem;
+  top: 13.5rem;
   left: 2rem;
   width: 6rem;
   height: 1.5rem;
@@ -30,7 +26,7 @@
 }
 .quiz--btn--2 {
   position: absolute;
-  top: 12rem;
+  top: 13.5rem;
   left: 9rem;
   width: 6rem;
   height: 1.5rem;
@@ -40,7 +36,7 @@
 }
 .quiz--btn--3 {
   position: absolute;
-  top: 12rem;
+  top: 13.5rem;
   left: 16rem;
   width: 6rem;
   height: 1.5rem;
@@ -50,7 +46,7 @@
 }
 .quiz--btn--4 {
   position: absolute;
-  top: 12rem;
+  top: 13.5rem;
   left: 23rem;
   width: 6rem;
   height: 1.5rem;
