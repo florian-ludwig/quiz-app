@@ -1,3 +1,12 @@
+.bookmark {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+.quiz--show--answer--btn__clicked {
+  background-color: aliceblue;
+}
+
 .quiz--show--answer--btn {
   position: absolute;
   top: 8rem;

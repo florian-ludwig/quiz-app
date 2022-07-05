@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  max-width: 500px;
   margin: 5rem 3rem;
   box-shadow: 0 0 5px 0 var(--font-color);
   background-color: var(--primary-color);
@@ -16,7 +17,6 @@
 }
 
 .quiz--card span {
-  display: flex;
   position: absolute;
   top: 1rem;
   left: 0.5rem;
