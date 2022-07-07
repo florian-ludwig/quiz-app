@@ -1,9 +1,12 @@
 @import url(base.css);
-@import url(header.css);
-@import url(footer.css);
-@import url(card.css);
-@import url(icons.css);
-@import url(create.css);
+@import url(/components/header/header.css);
+@import url(/components/footer/footer.css);
+@import url(/components/card/card.css);
+@import url(/components/buttons/buttons.css);
+@import url(/components/anwser-button/answer.css);
+@import url(/components/bookmark/bookmark.css);
+@import url(/components/create/create.css);
+
 @font-face {
   font-family: "Material Icons";
   font-style: normal;
