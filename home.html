@@ -107,26 +107,31 @@
       </div>
     </main>
 
-    <footer>
-      <nav class="footer--nav--bar">
-        <ul class="footer--nav--list">
-          <li class="footer--nav--items">
-            <a href="home.html"
-              ><i id="active" class="material-icons">home</i></a
-            >
-          </li>
-          <li class="footer--nav--items">
-            <a href="bookmarks.html"><i class="material-icons">bookmark</i></a>
-          </li>
-          <li class="footer--nav--items">
-            <a href="create.html"><i class="material-icons">create</i></a>
-          </li>
-          <li class="footer--nav--items">
-            <a href="profile.html"><i class="material-icons">person</i></a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
-    <script src="script.js" type="module"></script>
+    <nav class="footer--nav--bar">
+      <ul class="footer--nav--list">
+        <li class="footer--nav--items">
+          <button class="nav--button nav-home" data-js="nav-home">
+            <i class="material-icons">home</i>
+          </button>
+        </li>
+        <li class="footer--nav--items">
+          <button class="nav--button nav-bookmark" data-js="nav-bookmark">
+            <i class="material-icons">bookmark</i>
+          </button>
+        </li>
+        <li class="footer--nav--items">
+          <button class="nav--button nav-create" data-js="nav-create">
+            <i class="material-icons">create</i>
+          </button>
+        </li>
+        <li class="footer--nav--items">
+          <button class="nav--button nav-profile" data-js="nav-profile">
+            <i class="material-icons">person</i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="script.js" type="module" defer></script>
   </body>
 </html>

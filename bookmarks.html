@@ -18,37 +18,29 @@
 
     <main>
       <div class="quiz--card">
-        <button class="bookmark">
-          <i class="quiz-card-bookmark material-icons">bookmark</i>
+        <button type="button" class="bookmark" data-js="bookmark-button">
+          <i class="quiz-card-bookmark quiz-card-bookmark--checked material-icons"
+          data-js="bookmark-checked">bookmark</i>
         </button>
         <span>Question:</span>
         <p class="question-text">
           Lorem ipsum dolor sit amet consectetur dipisicing elit. Esse sit, ea
           quod praesentium?
         </p>
-        <button class="quiz--show--answer--btn">Show Answer</button>
+        <button type="button"
+        class="quiz--show--answer--btn"
+        data-js="answer-button">Show Answer</button>
+        <div class="answer-container">
+          <p class="answer-text" data-js="show-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
         <button class="quiz--btn--1">Lorem ipsum</button>
         <button class="quiz--btn--2">Lorem ipsum</button>
         <button class="quiz--btn--3">Lorem ipsum</button>
         <button class="quiz--btn--4">Lorem ipsum</button>
       </div>
 
-      <div class="quiz--card">
-        <a class="bookmark--checked"><i class="material-icons">bookmark</i></a>
-        <span>Question:</span>
-        <p class="question-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sit, ea
-          quod praesentium?
-        </p>
-        <button class="quiz--show--answer--btn">Show Answer</button>
-        <button class="quiz--btn--1">Lorem ipsum</button>
-        <button class="quiz--btn--2">Lorem ipsum</button>
-        <button class="quiz--btn--3">Lorem ipsum</button>
-        <button class="quiz--btn--4">Lorem ipsum</button>
-      </div>
-    </main>
-
-    <footer>
       <nav class="footer--nav--bar">
         <ul class="footer--nav--list">
           <li class="footer--nav--items">
@@ -67,6 +59,6 @@
           </li>
         </ul>
       </nav>
-    </footer>
+    <script src="script.js" type="module" defer></script>
   </body>
 </html>

@@ -25,13 +25,19 @@
   height: 40px;
   width: 40px;
 }
-i {
-  color: var(--font-color);
-  background-color: var(--background-color);
-}
-a {
-  background: transparent;
-}
-#active {
+.nav--button {
+  border-style: none;
   color: var(--button-color);
+}
+.nav-home {
+  color: var(--font-color);
+}
+.nav-bookmark {
+  color: var(--font-color);
+}
+.nav-create {
+  color: var(--font-color);
+}
+.nav-profile {
+  color: var(--font-color);
 }
