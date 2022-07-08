@@ -11,7 +11,7 @@
   background-color: var(--primary-color);
   color: var(--font-color);
   border-radius: 15px;
-  height: 30vh;
+  height: 35vh;
   position: relative;
   z-index: 30;
 }

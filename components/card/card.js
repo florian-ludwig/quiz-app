@@ -3,17 +3,17 @@ export default function createCard() {
     {
       question: "Lorem Ipsum Bla Bla Bla",
       answer: "Käsekuchen",
-      tags: ["Antwort1", "Antwort2", "Antwort3", "Antwort4"],
+      tags: ["Antwort 1", "Antwort 2", "Antwort 3", "Antwort 4"],
     },
     {
       question: "Lorem Ipsum Bla Bla Bla",
       answer: "Magerquark",
-      tags: ["Antwort1", "Antwort2", "Antwort3", "Antwort4"],
+      tags: ["Antwort 1", "Antwort 2", "Antwort 3", "Antwort 4"],
     },
     {
       question: "Lorem Ipsum Bla Bla Bla",
       answer: "Currywurst",
-      tags: ["Antwort1", "Antwort2", "Antwort3", "Antwort4"],
+      tags: ["Antwort 1", "Antwort 2", "Antwort 3", "Antwort 4"],
     },
   ];
 
