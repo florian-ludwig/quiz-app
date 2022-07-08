@@ -29,15 +29,6 @@
   border-style: none;
   color: var(--button-color);
 }
-.nav-home {
-  color: var(--font-color);
-}
-.nav-bookmark {
-  color: var(--font-color);
-}
-.nav-create {
-  color: var(--font-color);
-}
-.nav-profile {
+.nav-button--clicked {
   color: var(--font-color);
 }

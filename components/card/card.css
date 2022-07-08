@@ -11,12 +11,12 @@
   background-color: var(--primary-color);
   color: var(--font-color);
   border-radius: 15px;
-  height: 40vh;
+  height: 30vh;
   position: relative;
   z-index: 30;
 }
 
-.quiz--card span {
+.headline {
   position: absolute;
   top: 1rem;
   left: 0.5rem;

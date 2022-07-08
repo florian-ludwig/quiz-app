@@ -1,12 +1,11 @@
 .quiz-card-bookmark {
   position: absolute;
-  top: -2rem;
-  right: 1rem;
+  top: -1.5rem;
+  right: 0;
   background: transparent;
-  color: var(--button-color);
 }
 .quiz-card-bookmark--checked {
-  color: var(--font-color);
+  fill: #e78230;
 }
 .bookmark {
   position: absolute;

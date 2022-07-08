@@ -16,20 +16,21 @@
     />
   </head>
   <body>
-    <header>
-      <span class="header--title">Quiz-App</span>
-    </header>
+    <!------- HOME - SITE ------->
 
-    <main>
+    <header class="header--title">Quiz-App</header>
+
+    <main data-js="main">
       <div class="quiz--card">
         <button type="button" class="bookmark" data-js="bookmark-button">
-          <i
-            class="quiz-card-bookmark quiz-card-bookmark--checked material-icons"
+          <img
+            src="./icon/bookmark.svg"
+            alt="Icon Button"
+            class="quiz-card-bookmark quiz-card-bookmark--checked"
             data-js="bookmark-checked"
-            >bookmark</i
-          >
+          />
         </button>
-        <span>Question:</span>
+        <span class="headline">Question:</span>
         <p class="question-text">
           Lorem ipsum dolor sit amet consectetur dipisicing elit. Esse sit, ea
           quod praesentium?
@@ -52,7 +53,7 @@
         <button type="button" class="quiz--btn--4">Lorem ipsum</button>
       </div>
 
-      <div class="quiz--card">
+      <!-- <div class="quiz--card">
         <button type="button" class="bookmark">
           <i class="quiz-card-bookmark material-icons">bookmark</i>
         </button>
@@ -104,28 +105,42 @@
         <button type="button" class="quiz--btn--2">Lorem ipsum</button>
         <button type="button" class="quiz--btn--3">Lorem ipsum</button>
         <button type="button" class="quiz--btn--4">Lorem ipsum</button>
-      </div>
+      </div> -->
     </main>
+
+    <!------- BOOKMARK - SITE ------->
+
+    <main></main>
+
+    <!------- CREATE - SITE ------>
+
+    <main></main>
+
+    <!------- PROFILE - SITE ------->
+
+    <main></main>
+
+    <!------- NAV-BAR ------->
 
     <nav class="footer--nav--bar">
       <ul class="footer--nav--list">
         <li class="footer--nav--items">
-          <button class="nav--button nav-home" data-js="nav-home">
+          <button class="nav--button nav-button--clicked" data-js="nav-home">
             <i class="material-icons">home</i>
           </button>
         </li>
         <li class="footer--nav--items">
-          <button class="nav--button nav-bookmark" data-js="nav-bookmark">
+          <button class="nav--button nav-button--clicked" data-js="nav-home">
             <i class="material-icons">bookmark</i>
           </button>
         </li>
         <li class="footer--nav--items">
-          <button class="nav--button nav-create" data-js="nav-create">
+          <button class="nav--button nav-button--clicked" data-js="nav-home">
             <i class="material-icons">create</i>
           </button>
         </li>
         <li class="footer--nav--items">
-          <button class="nav--button nav-profile" data-js="nav-profile">
+          <button class="nav--button nav-button--clicked" data-js="nav-home">
             <i class="material-icons">person</i>
           </button>
         </li>

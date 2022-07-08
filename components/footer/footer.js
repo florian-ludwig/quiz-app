@@ -1,9 +1,9 @@
-export default function homeButton() {
-  const home = document.querySelector('[data-js="nav-home"]');
+export default function navButton() {
+  const buttons = document.querySelectorAll('[data-js="nav-home"]');
 
-  function homeClick() {
-    home.classList.remove("nav-home");
-  }
-
-  bookmark.addEventListener("click", homeClick);
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      button.classList.toggle("nav-button--clicked");
+    });
+  });
 }
