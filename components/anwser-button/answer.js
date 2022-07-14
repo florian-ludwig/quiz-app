@@ -5,10 +5,10 @@ export default function Answer() {
   let answerText = false;
 
   function buttonClick() {
-    answer.classList.toggle("answer-text");
+    answer.classList.toggle('answer-text');
     answerText = !answerText;
-    button.innerText = answerText ? "Hide Answer" : "Show Answer";
+    button.innerText = answerText ? 'Hide Answer' : 'Show Answer';
   }
 
-  button.addEventListener("click", buttonClick);
+  button.addEventListener('click', buttonClick);
 }
