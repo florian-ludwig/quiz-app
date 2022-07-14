@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--background-color);
 }
 
@@ -15,7 +15,7 @@
   --button-color: #e78230;
 }
 .material-icons {
-  font-family: "Material Icons";
+  font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
   font-size: 60px;
@@ -26,6 +26,6 @@
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-  -webkit-font-feature-settings: "liga";
+  -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }

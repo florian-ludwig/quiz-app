@@ -3,8 +3,8 @@ export default function Bookmark() {
   const bookmarkIcon = document.querySelector('[data-js="bookmark-checked"]');
 
   function bookmarkClick() {
-    bookmarkIcon.classList.toggle("quiz-card-bookmark--checked");
+    bookmarkIcon.classList.toggle('quiz-card-bookmark--checked');
   }
 
-  bookmarkButton.addEventListener("click", bookmarkClick);
+  bookmarkButton.addEventListener('click', bookmarkClick);
 }
